@@ -39,7 +39,8 @@ def runSimulationVectorized(grid, initialPositions, beta_k, alpha, N_x, N_p, T_p
         jVals.append((nPlus - nMinus) / N_p)
         
         if timeStep == 700:
-            print("Brake point") #Bra punkt å stoppe i debuggeren
+            #print("Brake point") #Bra punkt å stoppe i debuggeren
+            pass
 
         # 7. OPPDATER POSISJONER (i NumPy-arrayen)
         positions = (positions + steps) % grid

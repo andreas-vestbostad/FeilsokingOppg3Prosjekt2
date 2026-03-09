@@ -93,7 +93,7 @@ plt.ylabel("Gjennomsnitlig forflytninger")
 plt.grid()
 plt.show()
 
-
+"""
 #Oppgave 3 c og d
 #Konstanter
 T_p = 500  #Antall tidssteg per halve periode
@@ -153,7 +153,7 @@ plt.legend()
 plt.grid(True, alpha=0.3)
 plt.show()
 
-
+"""
 #Oppgave 3e
 #Konstanter
 T_pArray = np.linspace(80, 1500, 20) #20 tidsteg mellom 80 og 1500
